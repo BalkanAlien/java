@@ -1,5 +1,38 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        //integer type
+        int a;
+        a=2147483647;
+        System.out.println(a);
+
+        //long int type - for long data type we have to add l after the last digit so the compiler recognizes the differences between int and long int
+        long b = 2147483649l;
+        System.out.println(b);
+
+        //double type - 16 point digits precision
+        double c = 12.121212343434;
+        System.out.println(c);
+
+        //float type - we have to add f after the last digit so it's recognized as a float (6 digits point precision)
+        float d = 12.12f;
+        System.out.println(d);
+
+        //boolean type
+        boolean e = false;
+        System.out.println(e);
+
+        //character type
+        char f = 'f';
+        System.out.println(f);
+
+        //string type
+        String greetings = "Hello!";
+        //greetings = greetings.concat(" Hello, again."); //concatenation of characters
+        greetings = greetings + " Hello, again."; //this works as well
+        System.out.println(greetings);
+        System.out.println(greetings.length());
+        System.out.println(greetings.charAt(3));
+
+
     }
 }
