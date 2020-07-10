@@ -30,8 +30,8 @@ public class App {
         //greetings = greetings.concat(" Hello, again."); //concatenation of characters
         greetings = greetings + " Hello, again."; //this works as well
         System.out.println(greetings);
-        System.out.println(greetings.length());
-        System.out.println(greetings.charAt(3));
+        System.out.println(greetings.length()); //prints out character length of string
+        System.out.println(greetings.charAt(3)); //prints out character at position starting from 0
 
 
     }
