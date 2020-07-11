@@ -1,0 +1,33 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+        int myAge = 19;
+
+        if (myAge >= 21)
+        {
+            System.out.println("You can have a beer!");
+        }
+        else if (myAge >= 18)
+        {
+            System.out.println("You can have a beer but not in this country.");
+        }
+        else
+        {
+            System.out.println("You can't have a beer!");
+        }
+        switch (myAge)
+        {
+            case 17:
+            System.out.println("No.");
+            System.out.println("You can't have a beer.");
+            break;
+            case 18:
+            System.out.println("Yes.");
+            break;
+            case 19:
+            System.out.println("Yes.");
+            break;
+            default:
+            System.out.println
+        }
+    }
+}
