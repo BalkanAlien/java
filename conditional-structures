@@ -1,7 +1,8 @@
 public class App {
     public static void main(String[] args) throws Exception {
         int myAge = 19;
-
+        
+        // if-else 
         if (myAge >= 21)
         {
             System.out.println("You can have a beer!");
@@ -14,6 +15,8 @@ public class App {
         {
             System.out.println("You can't have a beer!");
         }
+        
+        //switch
         switch (myAge)
         {
             case 17:
