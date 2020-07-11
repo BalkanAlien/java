@@ -1,0 +1,10 @@
+import java.util.Scanner; //importing scanner for user input
+
+class apples{
+public static void main(String args[]) {
+
+    Scanner bucky = new Scanner(System.in); // variable of type input which is Scanner assigned to whatever the user inputs from the keyboard
+    System.out.println(bucky.nextLine());
+
+}
+}
