@@ -8,6 +8,6 @@ public class App {
         System.out.println(Math.min(-25.7, -9.3)); //finds minimum of two numbers
         System.out.println(Math.pow(2.0, 3.0)); //calculates power of a number
         System.out.println(Math.sqrt(81)); //calculates square root of a number
-        System.out.println(Math.random()); //prints random number between 0 and 1
+        System.out.println(Math.random()); //generates random number between 0 and 1
     }
 }
